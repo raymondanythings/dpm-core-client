@@ -17,7 +17,7 @@
 	"formatter": {
 		"enabled": true,
 		"formatWithErrors": false,
-		"ignore": [],
+		"ignore": ["node_modules/**/*", ".next/**/*", ".yarn/**/*"],
 		"indentStyle": "tab",
 		"lineEnding": "lf",
 		"lineWidth": 100
